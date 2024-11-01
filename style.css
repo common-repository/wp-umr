@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pollbar {
+    max-width: 50% !important;
+}
+
+body {
+	width: auto;
+	height: auto;
+	margin: 0px 0px 0px 20px; /* the space on the left of the layout */
+    padding: 0px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: left;
+    background-color: #FFFFFF;
+    overflow: -moz-scrollbars-vertical;
+}
+
+#layout {
+	position: relative;
+    width: 800px;
+    height: auto;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.margin-top {
+	margin: 5px 0px;
+}
+
+/* Content */
+
+#contentContainer {
+	float:left;
+    width: 800px;
+	height: auto;
+    background-repeat: repeat-y;
+    
+}
+
+#contentBox {
+	float: left;
+    width: 560px;
+    padding: 20px 20px 20px 20px;
+}
+
+.toolBox{
+	margin: 15px 0px 15px 0px;
+    padding: 15px 10px 20px 10px;
+    border-bottom: 1px solid #808080;
+    background-color: #eeeeee;	
+}
+
+/* Typo */
+
+h1 {
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+}
+
+a, a:hover, a:visited { 
+    color: #00CCFF;
+    text-decoration: none;
+}
+
+.post {
+    margin: 10px 0px 40px 0px;
+}
+
+
+.post > h2 a {
+    color: #333;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+/* Forms */
+
+button {
+	margin-top: 10px;
+}
+
+#loginForm{
+    list-style-image: none;
+    list-style-type: none;
+    padding: 15px 0px 0px 10px; 
+}
+
+ul li{
+    margin: 0px 0px 0px 18px;
+    padding: 5px 0px 5px 0px;
+    list-style-image: url("images/arrow.gif");
+    border-bottom: 0px;
+}
+
+input {
+    margin-bottom: 3px;
+    padding: 2px 0px 2px 2px;
+    background-color: #ffffff;
+    border: 1px solid #dddbdb;
+    color: #808080;
+    height: 15px;
+    width: 250px;
+    vertical-align: middle;
+    text-decoration: none;
+}
